@@ -23,8 +23,8 @@ class SearchBar extends Component {
             type="text"
             value={this.state.inputValue}
             onChange={this.handleInput}
-            maxLength={150}
-            placeholder="Search by title or author Char(150)"
+            maxLength={60}
+            placeholder="Search by title or author Char(60)"
           />
         </div>
       </div>
